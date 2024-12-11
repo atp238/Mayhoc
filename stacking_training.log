@@ -1,0 +1,23 @@
+2024-11-23 13:30:16,554 - INFO - Đọc dữ liệu thành công.
+2024-11-23 13:30:16,554 - INFO - X_train shape: (4000, 7), y_train shape: (4000,)
+2024-11-23 13:30:16,621 - INFO - Nạp các base models thành công.
+2024-11-23 13:30:16,621 - INFO - Kiểm tra đầu ra của từng base model:
+2024-11-23 13:30:16,665 - INFO - svr Predictions (5 values): [-0.00477824  0.08414509  0.0526108   0.10726833  0.0721377 ]
+2024-11-23 13:30:16,682 - INFO - rf Predictions (5 values): [-0.00231064  0.08074982  0.05245824  0.11056621  0.07138875]
+2024-11-23 13:30:16,683 - INFO - lr Predictions (5 values): [0.01333431 0.08967317 0.06183948 0.10309708 0.07606978]
+2024-11-23 13:30:16,683 - INFO - Bắt đầu huấn luyện mô hình Stacking...
+2024-11-23 13:30:27,560 - INFO - Hoàn thành huấn luyện mô hình Stacking.
+2024-12-02 20:07:44,890 - INFO - Đọc dữ liệu thành công.
+2024-12-02 20:07:44,891 - INFO - X_train shape: (4000, 7), y_train shape: (4000,)
+2024-12-02 20:07:44,935 - INFO - Nạp các base models thành công.
+2024-12-02 20:07:44,935 - INFO - Kiểm tra đầu ra của từng base model:
+2024-12-02 20:07:44,984 - INFO - svr Predictions (5 values): [-0.00477824  0.08414509  0.0526108   0.10726833  0.0721377 ]
+2024-12-02 20:07:45,001 - INFO - rf Predictions (5 values): [-0.00231064  0.08074982  0.05245824  0.11056621  0.07138875]
+2024-12-02 20:07:45,001 - INFO - lr Predictions (5 values): [0.01333431 0.08967317 0.06183948 0.10309708 0.07606978]
+2024-12-02 20:07:45,001 - INFO - Bắt đầu huấn luyện mô hình Stacking...
+2024-12-02 20:07:56,117 - INFO - Hoàn thành huấn luyện mô hình Stacking.
+2024-12-02 20:08:38,052 - INFO - Cross-Validation R2 Scores: [0.98848589 0.98348646 0.98074073 0.98871005 0.98533261]
+2024-12-02 20:08:38,053 - INFO - Mean Cross-Validation R2 Score: 0.9853511489988364
+2024-12-02 20:08:38,118 - INFO - Đánh giá trên tập kiểm tra: MSE=0.00010142902411679044, RMSE=0.010071197749860265, MAE=0.00793172098110768, R2=0.9873026368462848
+2024-12-02 20:08:38,124 - INFO - Lưu dự đoán và chỉ số đánh giá thành công.
+2024-12-02 20:08:38,291 - INFO - Mô hình Stacking đã được lưu vào file: stacking_model_final.pkl
